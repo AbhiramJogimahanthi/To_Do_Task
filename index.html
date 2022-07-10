@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO Do </title>
+
+    <link rel="stylesheet" href="MY_STYLE.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-     KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div class="header">
+        <h1> To Do List</h1>
+    </div>
+    <br>
+    <br>
+    <center>
+    <form id="form_task">
+        <div class="todo_input">
+        
+            <section class="task_section">
+                
+                <div class="form-group">
+                    <input type="text" class="fi form_title" placeholder="Enter the Task ..." required>
+                </div>
+                <div class="form-group">
+                    <textarea type="text" rows="10" class="fi form_description"
+                        placeholder="Description of Task ...."></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="date" class="fi form_deadline" " placeholder="deadline" required>
+
+                </div>
+                <div style="text-align: center;">
+                    <center><button type="submit" class="btn-success btn-block" style="text-align: center;">ADD<i class="fas fa-plus-circle"></i></button></center>
+                </div>
+            </section>
+        </div>
+    </form>
+    <br>
+    <br>
+    <br>
+    <section class="no_of_tasks" ></section>
+    <br><br>
+
+    <section class="todo_task_list"></section>
+    </center>
+    <script type="text/javascript" src="MY_JS.js"></script>
+</body>
+
+</html>
